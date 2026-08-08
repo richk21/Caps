@@ -4,4 +4,4 @@ This template should help get you started developing with Tauri, React and Types
 
 ## How to download?
 
-Navigate to exe and download the executable file and you're good to go.
+Navigate to the `exe/` folder or click [here](https://github.com/richk21/Caps/tree/master/exe) and download the executable file and you're good to go.
