@@ -1,0 +1,142 @@
+# ======================================================
+# Node / Frontend
+# ======================================================
+
+node_modules/
+dist/
+.vite/
+.cache/
+
+# npm
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ======================================================
+# Environment / Secrets
+# ======================================================
+
+.env
+.env.local
+.env.*.local
+
+# Keep example env files
+!.env.example
+
+
+# ======================================================
+# Tauri
+# ======================================================
+
+# Rust build output
+src-tauri/target/
+
+# Tauri generated build output
+src-tauri/gen/
+
+# Tauri generated bundles
+src-tauri/target/release/bundle/
+
+# Keep Tauri configuration
+!src-tauri/tauri.conf.json
+!src-tauri/capabilities/
+
+
+# ======================================================
+# Rust
+# ======================================================
+
+# Rust backup files
+**/*.rs.bk
+
+# Cargo generated files
+# Keep Cargo.lock for this application
+# (important for reproducible builds)
+
+# ======================================================
+# OS
+# ======================================================
+
+# Linux
+*~
+.directory
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+
+# ======================================================
+# Editors / IDEs
+# ======================================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# VS Code / editor backups
+*.code-workspace
+
+
+# ======================================================
+# Logs
+# ======================================================
+
+*.log
+logs/
+
+
+# ======================================================
+# Temporary files
+# ======================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+
+# ======================================================
+# Coverage / Testing
+# ======================================================
+
+coverage/
+.nyc_output/
+
+
+# ======================================================
+# OS / Build artifacts
+# ======================================================
+
+*.dSYM/
+*.pdb
+
+# Windows installers/build output
+*.msi
+
+
+# ======================================================
+# Local development
+# ======================================================
+
+.DS_Store
