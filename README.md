@@ -1,6 +1,6 @@
-# Tauri + React + Typescript
+# Caps
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+A tool that'll help you format, style and animate your video captions
 
 ## How to download?
 
